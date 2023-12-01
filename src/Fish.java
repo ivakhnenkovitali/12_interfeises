@@ -1,6 +1,8 @@
 import Interfaces.ISwim;
 import Interfaces.IWag;
 
+
+
 public class Fish extends Pet implements ISwim, IWag {
     public Fish() {
     }
