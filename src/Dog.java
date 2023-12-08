@@ -30,6 +30,8 @@ public class Dog extends Pet implements IVoice, ISwim, IPlay {
         System.out.println("Собачка " + getNickname() + " играет");
     }
 
+
+
     @Override
     public void wag() {
         System.out.println("Собачка " + getNickname() + " виляет");

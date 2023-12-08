@@ -3,6 +3,8 @@ import Interfaces.IVoice;
 
 public abstract class Cat extends Pet implements IVoice {
 
+
+
     public Cat() {
     }
 
