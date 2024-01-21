@@ -10,6 +10,13 @@ public abstract class Cat extends Pet implements IVoice {
         super(nickname, color);
     }
 
+
+
+
+
+
+
+
     @Override
     public void voce() {
         System.out.println("котик " + getNickname()+ " мяукает");
